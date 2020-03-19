@@ -1,0 +1,30 @@
+header{
+	margin: -8px -8px -8px -8px;
+}
+
+.nav {
+  background-color: #333;
+  overflow: hidden;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+	cursor: pointer;
+	background-color: #333;
+}
+
+
+.logo img{
+	width: 10vw;
+}
+
+/*Resize logo on mobile*/
+
+@media(max-width: 900px){
+	.logo img{
+		width: 20vw;
+		height: auto;
+	}
+}
